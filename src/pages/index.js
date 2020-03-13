@@ -2,6 +2,9 @@ import React, { useState } from "react"
 import { navigate } from "gatsby"
 
 import Layout from "../components/layout"
+import Padlock from "../components/padlock"
+
+import "./index.css"
 
 const IndexPage = () => {
   const [riddleAnswer, setRiddleAnswer] = useState('');
@@ -10,8 +13,9 @@ const IndexPage = () => {
     navigate("/tenvictorypointstoquentinandleyla");
   }
   return (
-    <Layout>
+    <div className="container">
       <input
+        className="input"
         type='text'
         maxLength='5'
         value={riddleAnswer}
@@ -22,7 +26,7 @@ const IndexPage = () => {
           }
         }
       /> 
-    </Layout>
+    </div>
   );
 }
 
