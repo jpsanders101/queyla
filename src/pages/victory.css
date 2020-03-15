@@ -15,6 +15,46 @@
   background-size: cover;
 }
 
+.content-block {
+  padding-top: 60px;
+  font-size: 40px;
+  text-shadow: -1px 1px 0 rgb(94, 94, 94),
+				  1px 1px 0 rgb(94, 94, 94),
+				 1px -1px 0 rgb(94, 94, 94),
+        -1px -1px 0 rgb(94, 94, 94);
+  text-align: center;
+  max-width: 66vw;
+  margin: 0 auto;
+  line-height: 1.2em;
+  color: white;
+}
+
+
+.content-block > * {
+  margin: 40px 0;
+}
+
+.content-block h2 {
+  font-size: 70px;
+  margin-bottom: 300px;
+}
+
+.content-block h3 {
+  font-size: 100px;
+}
+
+.ohmygod {
+  animation-name: ohmygod;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
+
+@keyframes ohmygod {
+  50% {
+    color: hotpink;
+  }
+}
+
 .sheep {
   background-image: url('/sheep.jpg');
 }
