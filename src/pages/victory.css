@@ -1,0 +1,36 @@
+.centre {
+  text-align: center;
+}
+
+.congrats {
+  font-size: 100px;
+  margin: 200px 0;
+}
+
+.scroll-section {
+  height: 200vh;
+  padding: 10px 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.sheep {
+  background-image: url('/sheep.jpg');
+}
+
+.wood {
+  background-image: url('/wood.jpg');
+}
+
+.ore {
+  background-image: url('/ore.png');
+}
+
+.wheat {
+  background-image: url('/wheat.png');
+}
+
+.brick {
+  background-image: url('/brick.png');
+}

@@ -8,7 +8,7 @@
   align-items: center;
   animation-name: colorChange;
   animation-iteration-count: infinite;
-  animation-duration: 20s;
+  animation-duration: 5s;
 }
 
 @keyframes colorChange {
@@ -17,23 +17,23 @@
   }
 
   20% {
-    background-color: #ebd634;
+    background-color: #34d8eb;
   }
 
   30% {
-    background-color: #baeb34;
+    background-color: #d334eb;
   }
 
   40% {
-    background-color: #34eb62;
+    background-color: #e2eb34;
   }
 
   50% {
-    background-color: #34ebe2;
+    background-color: #34ebc0;
   }
 
   60% {
-    background-color: #3465eb;
+    background-color: #eb346e;
   }
 
   70% {
