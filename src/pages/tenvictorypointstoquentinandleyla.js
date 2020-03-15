@@ -6,7 +6,8 @@ import "./victory.css"
 const VictoryPage = () => (
   <div className="victory-container">
     <div className="scroll-section sheep">
-      <h1 className="centre congrats">Congratulations!</h1>
+      <h1 className="centre congrats ohmygod">Congratulations!</h1>
+      <img className="skate-sheep" src="/skate-sheep.gif" />
     </div>
     <div className="scroll-section wheat">
       <div className="content-block">
@@ -24,7 +25,7 @@ const VictoryPage = () => (
     </div>
     <div className="scroll-section ore">
     <div className="content-block">
-      <h2 className="centre">Modern Fables<br />Escape Rooms</h2>
+      <a href="https://www.modern-fables.com/"><img src="/modernf.png"  /></a>
       <p>For an afternoon of puzzlement, team work, and inevitable bickering at one another's poor communication skills.</p>
       <p>Then, provided we do indeed escape the bloody room, we will then take you for a meal in the nearby, delicious establishment...</p>
     </div>
@@ -37,15 +38,18 @@ const VictoryPage = () => (
         <p>comforting and delicious things  one can order on this sweet earth.</p>
       </div>
     </div>
-    <div className="scroll-section">
+    <div className="scroll-section stobo">
       <div className="content-block">
-        <p>All you gotta do is pick a date!</p>
-        <p>With lots of love from,</p>
-        <p className="centre">{'Jack & Jon'}</p>
-        <p className="centre">{'xxx'}</p>
+        <p className="date">All we gotta do is pick a date!</p>
+        <p className="centre">
+          With lots of love from,
+          <br />
+          {'Jack & Jon'}
+          <br />
+          {'xxx'}
+        </p>
       </div>
     </div>
-    <Image imageUrl='sheep.jpg' />
   </div>
 )
 

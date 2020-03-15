@@ -4,7 +4,7 @@
 
 .congrats {
   font-size: 100px;
-  margin: 200px 0;
+  margin: 50px;
 }
 
 .scroll-section {
@@ -49,6 +49,10 @@
   animation-duration: 0.5s;
 }
 
+.date {
+  margin: 200px 0;
+}
+
 @keyframes ohmygod {
   50% {
     color: hotpink;
@@ -73,4 +77,13 @@
 
 .brick {
   background-image: url('/brick.png');
+}
+
+.stobo {
+  background-image: url('/stobo.jpg');
+}
+
+.skate-sheep {
+  margin: 0 auto;
+  display: block;
 }

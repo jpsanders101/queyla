@@ -14,6 +14,7 @@ const IndexPage = () => {
   }
   return (
     <div className="container">
+      <img src="/Icon-Padlock-Monochrome.svg" width="200px" />
       <input
         className="input"
         type='text'
