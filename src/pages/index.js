@@ -1,9 +1,6 @@
 import React, { useState } from "react"
 import { navigate } from "gatsby"
 
-import Layout from "../components/layout"
-import Padlock from "../components/padlock"
-
 import "./index.css"
 
 const IndexPage = () => {
