@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import { navigate } from "gatsby"
 
+import Layout from '../components/Layout'
+
 import "./index.css"
 
 const IndexPage = () => {
@@ -10,21 +12,23 @@ const IndexPage = () => {
     navigate("/tenvictorypointstoquentinandleyla");
   }
   return (
-    <div className="container">
-      <img src="/padlock.svg" width="200px" alt="Padlock"/>
-      <input
-        className="input"
-        type='text'
-        maxLength='5'
-        value={riddleAnswer}
-        placeholder='*****'
-        onChange={
-          (e) => {
-            setRiddleAnswer(e.target.value)
+    <Layout>
+      <div className="container">
+        <img src="/padlock.svg" width="200px" alt="Padlock"/>
+        <input
+          className="input"
+          type='text'
+          maxLength='5'
+          value={riddleAnswer}
+          placeholder='*****'
+          onChange={
+            (e) => {
+              setRiddleAnswer(e.target.value)
+            }
           }
-        }
-      /> 
-    </div>
+        /> 
+      </div>
+    </Layout>
   );
 }
 
