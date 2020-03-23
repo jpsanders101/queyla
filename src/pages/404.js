@@ -1,8 +1,10 @@
 import React from "react"
-import { navigate } from "gatsby"
 
-const NotFoundRedirect = () => (
-  navigate("/")
+const NotFound = () => (
+  <main>
+    {'Page not found.'}
+    <a href="/">{'Click here.'}</a>
+  </main>
 )
 
-export default NotFoundRedirect
+export default NotFound
